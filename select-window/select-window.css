@@ -1,0 +1,47 @@
+.auto-click-select-window {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: #aaa 2px solid !important;
+    border-radius: 10px;
+    z-index: 2147483647;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-selected {
+    border: greenyellow 2px solid !important;
+}
+
+.auto-click-select-window > * {
+    margin: 10px 20px;
+}
+
+.select-toggle-button {
+    color: #000;
+    background-color: #fff;
+    border: skyblue 2px solid;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.select-toggle-button:hover {
+    color: #fff;
+    background-color: skyblue;
+}
+
+.select-toggle-button.active {
+    color: #fff;
+    background-color: skyblue;
+}
+
+.auto-click-selected {
+    border: skyblue 2px dashed !important;
+}
+
+.atc-font-size {
+    font-size: 1.15rem;
+}

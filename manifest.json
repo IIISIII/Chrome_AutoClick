@@ -1,0 +1,17 @@
+{
+    "name": "Auto Click",
+    "description": "Auto Click Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "...",
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["select-window/select-window.css"]
+        }
+    ],
+    "permissions": ["tabs", "activeTab", "scripting"]
+}
